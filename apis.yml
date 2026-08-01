@@ -1,7 +1,23 @@
 aid: skinseoul-lab
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skinseoul-lab.png
 name: Skinseoul Lab
-description: Skinseoul Lab is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Skinseoul Lab operates skin-seoul.com, a direct-to-consumer Korean beauty (K-beauty)
+  e-commerce brand selling skincare and cosmetics to international customers, backed by 500 Global.
+  Its public presence is a Next.js storefront fronted by Cloudflare with an Express commerce backend;
+  enrichment probing (2026-07-21) found no public developer API, documentation, developer portal, or
+  /.well-known/ discovery surface. The api.skin-seoul.com host returns only a plaintext "OK" health
+  response, indicating an internal storefront backend rather than a documented public API.
 url: https://raw.githubusercontent.com/api-evangelist/skinseoul-lab/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- E-commerce
+- Beauty
+- Skincare
+- Cosmetics
+- Korean Beauty
+- Retail
+- Consumer
+- D2C
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,8 @@ maintainers:
 common:
 - type: Website
   url: https://skin-seoul.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
