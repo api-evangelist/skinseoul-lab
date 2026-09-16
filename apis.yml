@@ -23,12 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skinseoul-lab.png
 name: Skinseoul Lab
-description: Skinseoul Lab operates skin-seoul.com, a direct-to-consumer Korean beauty (K-beauty)
-  e-commerce brand selling skincare and cosmetics to international customers, backed by 500 Global.
-  Its public presence is a Next.js storefront fronted by Cloudflare with an Express commerce backend;
-  enrichment probing (2026-07-21) found no public developer API, documentation, developer portal, or
-  /.well-known/ discovery surface. The api.skin-seoul.com host returns only a plaintext "OK" health
-  response, indicating an internal storefront backend rather than a documented public API.
+description: Skinseoul Lab operates skin-seoul.com, a direct-to-consumer Korean beauty (K-beauty) e-commerce
+  brand selling skincare and cosmetics to international customers, backed by 500 Global. Its public presence
+  is a Next.js storefront fronted by Cloudflare with an Express commerce backend; enrichment probing (2026-07-21)
+  found no public developer API, documentation, developer portal, or /.well-known/ discovery surface.
+  The api.skin-seoul.com host returns only a plaintext "OK" health response, indicating an internal storefront
+  backend rather than a documented public API.
 url: https://raw.githubusercontent.com/api-evangelist/skinseoul-lab/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -38,7 +38,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-16'
 tags:
 - Company
 - E-Commerce
@@ -49,6 +49,7 @@ tags:
 - Retail
 - Consumer
 - D2C
+- Direct to Consumer
 tags_raw:
 - Company
 - E-commerce
@@ -59,6 +60,7 @@ tags_raw:
 - Retail
 - Consumer
 - D2C
+- Direct to Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
